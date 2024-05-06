@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+*{margin: 0; padding: 0;}
+
+/* Cuerpo */
+main {
+    background-color: rgb(210, 255, 210);
+    padding: 5px 0 30px;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Rufina';
+}
+.titulo {
+    padding: 25px;
+    margin: 0 0 60px;
+    font-size: 3em;
+    font-family: 'Ubuntu';
+    color: white;
+    background: rgb(3,92,66);
+    background: linear-gradient(90deg, rgba(3,92,66,1) 9%, rgba(10,199,140,1) 41%, rgba(210,255,210,1) 100%);
+    
+}
+section{
+    width: 1200px;
+    margin:0 auto;
+    padding: 20px;
+}
+
+/* Formulario */
+section div{padding: 17px;}
+
+.form{
+    width: 55%;
+    height: 70%;
+    margin:0 auto;
+    border: 2px solid rgb(58, 148, 105);
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(150, 250, 180);
+}
+.form input{
+    width: 360px;
+    height: 45px;
+    font-size: 0.7em;
+}
+.form textarea{
+    width: 360px;
+    height: 200px;
+    font-size: 0.7em;
+}
+.form .checkbox{
+    width: 40px;
+    height: 40px;
+}
+.form select{
+    width: 360px;
+    height: 40px;
+    font-size: 0.7em;
+}

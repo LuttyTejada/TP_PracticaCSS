@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta itemprop="name" content="Editorial Aluz">
+	<meta itemprop="description" content="Contactate con nosotros">
+	<meta itemprop="founder" content="Alejandro Puente - Luz Rosamonte">
+	<meta itemprop="email" content="editorial_Aluz@business.com">
+	<meta itemprop="author" content="Tejada Guzmán Lucila Shayen">
+
+	<link rel="stylesheet" href="../styles/extremos.css">
+	<link rel="stylesheet" href="../styles/forms.css">
+	<title>Contacto-Editorial Aluz</title>
+</head>
+<body>
+	<header class="extremos">
+		<h1><a id="logo" href="../../index.html">Editorial Aluz</a></h1>
+		<nav>
+			<ul>
+				<li><a href="ourStory.html">Nuestra Historia</a></li>
+				<li><a href="publication.html">Publicaciones</a></li>
+				<li><a href="faq.html">Preguntas Frecuentes</a></li>
+				<li><a href="contac.html">Contacto</a></li>
+				<li><a href="login.html">Registrarse</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2 class="titulo">Contactate con Nosotros</h2>
+			<p>A continuacion podras ingresar tus datos para contactarnos por cualquier duda, inquietud o sugerencia.</p>
+		</section>
+		<section class="form">
+			<form method="post" action="contacto.html">
+				<div>
+					<label for="name">Nombre</label><br>
+					<input type="text" name="name" id="name" placeholder="Ingrese su nombre" required>
+				</div>
+				<div>
+					<label for="genero">Genero</label><br>
+					<input class="checkbox" type="radio" name="genero" id="genero" value="female"><span>Femenino</span>
+					<input class="checkbox" type="radio" name="genero" id="genero" value="male"><span>Masculino</span>
+				</div>
+				<div>
+					<label for="mail">Correo Electronico</label><br>
+					<input type="email" name="mail" id="mail" placeholder="Ingresar email" required>
+				</div>
+				<div>
+					<label for="number">Numero Telefonico</label><br>
+					<input type="tel" name="number" id="number" placeholder="Ingresar telefono">
+				</div>
+				<div>
+					<label for="provincia">Procedencia</label><br>
+					<select name="provincia" id="provincia">
+						<option value="00">Provincia</option>
+						<option value="01">La Rioja</option>
+						<option value="02">Cordoba</option>
+						<option value="03">San Juan</option>
+						<option value="04">Tucuman</option>
+						<option value="05">Rio Negro</option>
+						<option value="06">Salta</option>
+						<option value="07">Buenos Aires</option>
+						<option value="08">San Luis</option>
+						<option value="09">Chubut</option>
+						<option value="10">Neuquen</option>
+						<option value="11">Entre Rios</option>
+						<option value="12">Jujuy</option>
+						<option value="13">Santa Cruz</option>
+						<option value="14">Catamarca</option>
+						<option value="15">Tierra del Fuego</option>
+						<option value="16">Santa Fe</option>
+						<option value="17">Corrientes</option>
+						<option value="18">La Pampa</option>
+						<option value="19">Misiones</option>
+						<option value="20">Chaco</option>
+						<option value="21">Formosa</option>
+						<option value="22">Santiago del Estero</option>
+						<option value="23">Mendosa</option>
+					</select>
+				</div>
+				<div>
+					<label>Motivo</label><br>
+					<input class="checkbox" type="radio" name="motivo" value="01" required><span>Duda</span>
+					<input class="checkbox" type="radio" name="motivo" value="02" required><span>Sugerencia</span>
+					<input class="checkbox" type="radio" name="motivo" value="03" required><span>Queja</span>
+					<input class="checkbox" type="radio" name="motivo" value="04" required><span>Servicios</span>
+				</div>
+				<div>
+					<label for="coment">Comentario</label><br>
+					<textarea name="coment" id="coment" placeholder="Escriba su comentario" required></textarea>
+					
+				</div>
+				<div></div>
+				<div>
+					<input type="submit">
+				</div>
+			</form>
+		</section>
+	</main>
+	<footer class="extremos">
+		<div>
+			<p><strong>Redes Sociales</strong></p>
+			<a href="https://www.instagram.com/">Instagram-EditorialAluz</a>
+			<a href="https://www.facebook.com/">Facebook-EditorialAluz</a>
+			<a href="https://twitter.com/home">Twitter-EditorialAluz</a>
+		</div>
+		<div>
+			<a href="assets/pages/login.html">Registrarse</a>
+			<p>&copy; Derechos de copyright reservados</p>
+		</div>
+	</footer>
+</body>
+</html>

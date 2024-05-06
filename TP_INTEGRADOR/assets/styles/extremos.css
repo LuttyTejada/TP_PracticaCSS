@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0;}
+
+ /* header y footer */
+.extremos{
+    text-align: center;
+    font-family: monospace;
+    background-color: rgb(238, 100, 85);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.extremos a{
+    text-decoration: none;
+    color: rgb(10, 10, 135);
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+nav li{ 
+    padding: 10px; 
+    list-style: none;
+    display: inline-block;
+}
+
+footer div{padding: 10px;}
+footer div p {padding: 10px;}
+
+#logo{
+    text-decoration: none;
+    color: beige;
+    border: 0;
+}
+
+

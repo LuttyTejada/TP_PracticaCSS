@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+*{margin: 0; padding: 0;}
+
+/* General */
+main {
+    background-color: rgb(210, 255, 210);
+    padding: 5px 0 30px;
+    font-size: 1.4em;
+    font-family: 'Rufina';
+    text-align: justify;
+}
+section{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 30px;
+}/* margin solo centra los elementos de manera horizontal */
+
+
+/* Inicio */
+.titulo {
+    padding: 25px;
+    margin: 0 0 60px;
+    font-size: 3em;
+    font-family: 'Ubuntu';
+    color: white;
+    background: rgb(3,92,66);
+    background: linear-gradient(90deg, rgba(3,92,66,1) 9%, rgba(10,199,140,1) 41%, rgba(210,255,210,1) 100%);
+        
+}
+section blockquote{
+    font-style: italic;
+    font-weight:bolder;
+}
+
+/* Libros */
+section h3{
+    margin: 20px 0 50px;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section div{
+    width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(150, 250, 180);
+}
+
+
+/* Tabla de Publicaciones */
+table{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Rufina';
+    background-color: rgb(150, 250, 180);
+    border: 5px;
+}
+
+
+/* Preguntas Frecuentes */
+section a{
+    text-decoration: none;
+    color: rgb(10, 10, 135);
+}
+.res {
+    width: 1200px;
+    margin: 70px auto;
+    padding: 40px;
+    background-color: rgb(150, 250, 180);
+}
